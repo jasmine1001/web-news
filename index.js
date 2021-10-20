@@ -19,7 +19,7 @@ xhr.onload = function () {
 // console.log(element,index)
       let Todaynews = `
 <p>
-<button id="news" class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1">${element["title"]}</button>
+<div id="news" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample1" aria-expanded="false" aria-controls="multiCollapseExample1">${element["title"]}</div>
 
 </p>
 <div class="row">
